@@ -15,3 +15,8 @@ EnhancedInputComponent* EnhancedInputComponent = CastCheck<EnhancedInputComponen
 EnhancedInputComponent->BindAction(InputAction,ETriggerEvent::Triggered,this,&FuncName)
 ```
 
+#### CursorTrace
+key 接口类
+```
+
+```
