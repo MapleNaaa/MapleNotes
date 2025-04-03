@@ -1,0 +1,44 @@
+//#include<iostream>
+//#include<bit>
+//using namespace std;
+//
+//void bucketSort(int* arr, int len) {
+//	int** buckets = new int* [2];
+//	buckets[0] = new int[len];
+//	buckets[1] = new int[len];
+//
+//	int maxbit = getMaxBytes(arr, len);
+//	int div = 1;
+//	for (int b = 0; b < maxbit;b++) {
+//		int ptr0 = 0, ptr1 = 0;
+//		for (int i = 0; i < len; i++) {
+//			if ((arr[i] & div) == 0) {
+//				buckets[0][ptr0++] = arr[i];
+//			}
+//			else {
+//				buckets[1][ptr1++] = arr[i];
+//			}
+//		}
+//		for (int i = 0; i < ptr0;i++) {
+//			arr[i] = buckets[0][i];
+//		}
+//		for (int i = 0; i < ptr1;i++) {
+//			arr[i + ptr0] = buckets[1][i];
+//		}
+//	}
+//	delete[] buckets[0];
+//	delete[] buckets[1];
+//	delete[] buckets;
+//}
+//
+//int getMaxBytes(int* arr, int len) {
+//	int Max = INT_MIN;
+//	for (int i = 0; i < len;i++) {
+//		if (Max < arr[i]) Max = arr[i];
+//	}
+//	int bit = 1;
+//	while (Max >>= 1) {
+//		bit += 1;
+//	}
+//	return bit;
+//}
