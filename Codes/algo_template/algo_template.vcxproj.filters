@@ -14,4 +14,33 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="图-BellmanFord.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="图-ColorJudge.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="图-dijkstra.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="图-dijkstra堆优化.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="图-Kruskal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="图-并查集.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="图-二分.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="图-拓扑排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="图-匈牙利算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
