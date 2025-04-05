@@ -42,5 +42,20 @@
     <ClCompile Include="图-匈牙利算法.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="图-Hierholzer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="图-DFS序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="字符串-哈希.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="字符串-KMP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="字符串-Manacher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -129,13 +130,18 @@
   <ItemGroup>
     <ClCompile Include="图-BellmanFord.cpp" />
     <ClCompile Include="图-ColorJudge.cpp" />
+    <ClCompile Include="图-DFS序.cpp" />
     <ClCompile Include="图-dijkstra.cpp" />
     <ClCompile Include="图-dijkstra堆优化.cpp" />
+    <ClCompile Include="图-Hierholzer.cpp" />
     <ClCompile Include="图-Kruskal.cpp" />
     <ClCompile Include="图-二分.cpp" />
     <ClCompile Include="图-匈牙利算法.cpp" />
     <ClCompile Include="图-并查集.cpp" />
     <ClCompile Include="图-拓扑排序.cpp" />
+    <ClCompile Include="字符串-Manacher.cpp" />
+    <ClCompile Include="字符串-哈希.cpp" />
+    <ClCompile Include="字符串-KMP.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
