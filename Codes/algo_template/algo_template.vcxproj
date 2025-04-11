@@ -128,6 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="other.cpp" />
     <ClCompile Include="图-BellmanFord.cpp" />
     <ClCompile Include="图-ColorJudge.cpp" />
     <ClCompile Include="图-DFS序.cpp" />
@@ -142,6 +143,7 @@
     <ClCompile Include="字符串-Manacher.cpp" />
     <ClCompile Include="字符串-哈希.cpp" />
     <ClCompile Include="字符串-KMP.cpp" />
+    <ClCompile Include="搜索-双向BFS.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -57,5 +57,11 @@
     <ClCompile Include="字符串-Manacher.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="other.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="搜索-双向BFS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
